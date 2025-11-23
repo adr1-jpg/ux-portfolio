@@ -4,31 +4,31 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex flex-col">
+    <main className="flex flex-col px-4 md:px-0">
       <div
-        className="grid grid-cols-2 gap-4 justify-items-center items-center"
+        className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-4 justify-items-center items-center"
         style={{ minHeight: "calc(100vh - 10rem)" }}
       >
-        <div>
-          <h1 className="mb-4">Hello, I'm Adriana!</h1>
-          <p className="mb-6 text-xl">
+        <div className="text-center md:text-left max-w-md md:max-w-none">
+          <h1 className="mb-4 text-4xl md:text-5xl">Hello, I'm Adriana!</h1>
+          <p className="mb-6 text-lg md:text-xl">
             I am a <b style={{ color: 'var(--accent-warm-red)' }}>Design Engineer</b> working on the Azure Portal team at Microsoft.
           </p>
         </div>
-        <div>
+        <div className="flex justify-center md:justify-start">
           <Image
             src="/headshot.png"
             alt="Profile Picture of the author"
             width={300}
-            height={300}
+            height={330}
             priority
-            className="rounded-md"
+            className="rounded-md w-[250px] h-auto md:w-[300px]"
           />
         </div>
       </div>
-      <div className="flex flex-col">
-        <h2 className="mb-6">Check out my work ✨</h2>
-        <div className="grid grid-cols-2 gap-8">
+      <div className="flex flex-col mt-8 md:mt-0">
+        <h2 className="mb-6 text-center md:text-left">Check out my work ✨</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
           <a
             href="https://github.com/adr1-jpg/fluentui-contrib/tree/6307a97b0424c3e5c069a5bf6d2dfc0b2f5d1fca/packages/azure-theme"
             target="_blank"
