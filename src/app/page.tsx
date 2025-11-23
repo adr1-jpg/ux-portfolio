@@ -39,6 +39,7 @@ export default function Home() {
                 src="/azure-theme.png"
                 alt="Azure Theme Project"
                 fill
+                loading="eager"
                 className="object-cover group-hover:scale-105 transition-transform duration-300"
               />
             </div>
@@ -106,6 +107,7 @@ export default function Home() {
                 src="/msft-azure-logo.png"
                 alt="Azure Portal Homepage Prototype"
                 fill
+                loading="eager"
                 className="object-cover group-hover:scale-105 transition-transform duration-300 p-10"
               />
             </div>

@@ -22,6 +22,7 @@ export default function About() {
           alt="Description of image"
           width={500}
           height={300}
+          priority
           className="rounded-md"
         />
       </div>
@@ -31,6 +32,7 @@ export default function About() {
           alt="Description of another image"
           width={500}
           height={300}
+          priority
           className="rounded-md"
         />
         <div className="flex flex-col gap-8">
