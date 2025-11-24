@@ -86,17 +86,33 @@ export default function About() {
               a sense of stability, fulfillment and joy.
             </p>
             <p>
-              I first discovered computer science in high school through MIT's
-              MOSTEC program. It was tough! I had never experienced such
-              academic rigor. But by proactively seeking support, I persevered.
+              I first discovered computer science in high school through{" "}
+              <a
+                href="https://mites.mit.edu/discover-mites/mites-semester/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[var(--brand-blue)] hover:underline"
+              >
+                MIT's MOSTEC program
+              </a>
+              . It was tough! I had never experienced such academic rigor. But
+              by proactively seeking support, I persevered.
             </p>
             <p>
-              For undergrad, I attended Columbia University's School of
-              Engineering, majoring in Computer Science with a focus on
-              applications. As a first-generation college student, I struggled
-              navigating higher education. With the support of friends, family,
-              and my Columbia community, I gained the confidence to embrace
-              difficult challenges and push forward.
+              For undergrad, I attended{" "}
+              <a
+                href="https://www.engineering.columbia.edu/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[var(--brand-blue)] hover:underline"
+              >
+                Columbia University's School of Engineering
+              </a>
+              , majoring in Computer Science with a focus on applications. As a
+              first-generation college student, I struggled navigating higher
+              education. With the support of friends, family, and my Columbia
+              community, I gained the confidence to embrace difficult challenges
+              and push forward.
             </p>
           </div>
         </div>
@@ -118,7 +134,7 @@ export default function About() {
         <div className="flex gap-4 justify-center md:justify-start flex-wrap">
           <a
             href="mailto:orantesadri1@gmail.com"
-            className="px-6 py-2 border border-gray-300 rounded-md hover:bg-gray-50 transition-colors text-sm md:text-base"
+            className="px-6 py-2 border border-gray-300 rounded-md hover:bg-[var(--brand-blue)] hover:text-white hover:border-[var(--brand-blue)] transition-colors text-sm md:text-base"
           >
             Email
           </a>
@@ -126,7 +142,7 @@ export default function About() {
             href="https://www.linkedin.com/in/adriana-orantes/"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-2 border border-gray-300 rounded-md hover:bg-gray-50 transition-colors text-sm md:text-base"
+            className="px-6 py-2 border border-gray-300 rounded-md hover:bg-[var(--brand-blue)] hover:text-white hover:border-[var(--brand-blue)] transition-colors text-sm md:text-base"
           >
             LinkedIn
           </a>
@@ -134,7 +150,7 @@ export default function About() {
             href="https://github.com/adr1-jpg"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-2 border border-gray-300 rounded-md hover:bg-gray-50 transition-colors text-sm md:text-base"
+            className="px-6 py-2 border border-gray-300 rounded-md hover:bg-[var(--brand-blue)] hover:text-white hover:border-[var(--brand-blue)] transition-colors text-sm md:text-base"
           >
             GitHub
           </a>
@@ -142,7 +158,7 @@ export default function About() {
             href="https://docs.google.com/document/d/1YEoeWHF4jqr3WS938hHSKB3Rxo8hq9-t74FeBPZSOSw/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-2 border border-gray-300 rounded-md hover:bg-gray-50 transition-colors text-sm md:text-base"
+            className="px-6 py-2 border border-gray-300 rounded-md hover:bg-[var(--brand-blue)] hover:text-white hover:border-[var(--brand-blue)] transition-colors text-sm md:text-base"
           >
             Resume
           </a>
