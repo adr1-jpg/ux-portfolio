@@ -16,21 +16,19 @@ export default function Home() {
           </p>
         </div>
         <div className="flex justify-center md:justify-start">
-          <div style={{ backgroundColor: '#f0f0f0', borderRadius: '6px' }}>
-            <Image
-              src="/headshot.png"
-              alt="Profile Picture of the author"
-              width={300}
-              height={330}
-              priority
-              className="rounded-md w-[250px] h-auto md:w-[300px]"
-            />
-          </div>
+          <Image
+            src="/headshot.png"
+            alt="Profile Picture of the author"
+            width={300}
+            height={330}
+            priority
+            className="rounded-md w-[250px] h-auto md:w-[300px]"
+          />
         </div>
       </div>
       <div className="flex flex-col mt-8 md:mt-0">
         <h2 className="mb-6 text-center md:text-left">Check out my work ✨</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-8">
           <a
             href="https://github.com/adr1-jpg/fluentui-contrib/tree/6307a97b0424c3e5c069a5bf6d2dfc0b2f5d1fca/packages/azure-theme"
             target="_blank"
@@ -48,8 +46,7 @@ export default function Home() {
             <div className="p-6 space-y-4">
               <h3 className="text-2xl font-semibold text-gray-900">Azure-Theme</h3>
               <p className="text-gray-600 leading-relaxed">
-                A custom theme package for Fluent UI, aligning components with
-                Azure Portal's brand colors and design language.
+                A custom npm package that applies Azure Portal's brand system to Fluent UI, used by 10+ teams across Azure Portal to accelerate development and ensure visual consistency.
               </p>
               <p className="text-sm text-gray-500 leading-relaxed">
                 In 2022, Microsoft launched{" "}
@@ -69,7 +66,7 @@ export default function Home() {
                 <span
                   onClick={(e) => {
                     e.stopPropagation();
-                    window.open("https://www.npmjs.com/package/@fluentui/azure-themes?activeTab=readme", "_blank");
+                    window.open("https://www.npmjs.com/package/@fluentui-contrib/azure-theme?activeTab=readme", "_blank");
                   }}
                   className="hover:opacity-70 transition-opacity flex items-center justify-center cursor-pointer"
                   aria-label="View on NPM"
@@ -116,7 +113,7 @@ export default function Home() {
             <div className="p-6 space-y-4">
               <h3 className="text-2xl font-semibold text-gray-900">Azure Portal Prototyping</h3>
               <p className="text-gray-600 leading-relaxed">
-                Create high-fidelity, pixel-perfect interactive prototypes for Azure Portal features and redesigns.
+                Engineer interactive React prototypes for Azure Portal features, collaborating with researchers to validate designs and inform product direction for millions of users.
               </p>
               <p className="text-sm text-gray-500 leading-relaxed">
                 Work includes prototyping the CLI experience, exploring new layout patterns, and validating design concepts for various portal features to support user research and stakeholder alignment.
