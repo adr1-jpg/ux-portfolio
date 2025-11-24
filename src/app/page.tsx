@@ -16,14 +16,16 @@ export default function Home() {
           </p>
         </div>
         <div className="flex justify-center md:justify-start">
-          <Image
-            src="/headshot.png"
-            alt="Profile Picture of the author"
-            width={300}
-            height={330}
-            priority
-            className="rounded-md w-[250px] h-auto md:w-[300px]"
-          />
+          <div style={{ backgroundColor: '#f0f0f0', borderRadius: '6px' }}>
+            <Image
+              src="/headshot.png"
+              alt="Profile Picture of the author"
+              width={300}
+              height={330}
+              priority
+              className="rounded-md w-[250px] h-auto md:w-[300px]"
+            />
+          </div>
         </div>
       </div>
       <div className="flex flex-col mt-8 md:mt-0">

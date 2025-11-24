@@ -26,6 +26,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preload" href="/headshot.png" as="image" />
+        <link rel="preload" href="/nyc-me.jpeg" as="image" />
+        <link rel="preload" href="/me-cs.jpg" as="image" />
+      </head>
       <body className={`${openSans.variable} ${lora.variable} antialiased`}>
         <Header />
         {children}
