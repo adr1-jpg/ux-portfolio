@@ -12,7 +12,7 @@ export default function About() {
           <h1 className="text-3xl md:text-5xl">Nice to meet you</h1>
           <div className="space-y-4 text-sm md:text-base leading-relaxed">
             <p>
-              I'm Adriana, a UX Engineer at Microsoft Azure. I build AI tools,
+              I'm Adriana, a Design Engineer at Microsoft Azure. I build AI tools,
               design systems, and interactive prototypes.
             </p>
           </div>
@@ -20,7 +20,7 @@ export default function About() {
         <div className="flex justify-center">
           <Image
             src="/nyc-me.jpeg"
-            alt="Adriana in NYC"
+            alt="Adriana standing and looking back with Times Square in the background"
             width={400}
             height={500}
             priority
@@ -68,7 +68,7 @@ export default function About() {
         <div className="flex justify-center order-2 md:order-1">
           <Image
             src="/me-cs.jpg"
-            alt="Adriana at Columbia Computer Science"
+            alt="Adriana holding her graduation gown with Computer Science written in the background"
             width={400}
             height={600}
             priority
