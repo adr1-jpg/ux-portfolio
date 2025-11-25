@@ -64,18 +64,18 @@ export default function About() {
         </div>
       </section>
       {/* How I got here section */}
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
-        <div className="flex justify-center order-2 md:order-1">
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
+        <div className="flex justify-center order-2 md:order-1 min-w-0">
           <Image
             src="/me-cs.jpg"
             alt="Adriana holding her graduation gown with Computer Science written in the background"
-            width={400}
+            width={600}
             height={600}
             priority
-            className="rounded-lg object-cover w-full h-auto max-w-[320px] md:max-w-[450px] shadow-md"
+            className="rounded-lg object-cover w-full h-auto max-w-[320px] md:max-w-[500px] shadow-md"
           />
         </div>
-        <div className="flex flex-col gap-6 md:gap-8 text-center md:text-left order-1 md:order-2">
+        <div className="flex flex-col gap-6 md:gap-8 text-center md:text-left order-1 md:order-2 min-w-0 overflow-hidden">
           <h2 className="text-2xl md:text-4xl">How I got here</h2>
           <div className="space-y-4 text-sm md:text-base leading-relaxed">
             <p>
